@@ -14,4 +14,5 @@ int main()
     if (abs(ret - 1. / sqrt(2)) > 1e-14)
         cout << "failed!" << endl;
     cout << "ret = " << ret << endl;
+    getchar();
 }
